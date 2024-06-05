@@ -1,9 +1,6 @@
 import argparse, requests
 
-token = "71e296f577e9f263d85eccab467f811faab66a18"
-codelab_id = "ad52def9-9008-4098-b2b7-d72e5cfd12e8"
 domain = "demo.plusplus.app"
-
 
 def get_presigned_post(token, codelab_id):
     """Get the pre-signed post details."""
