@@ -15,6 +15,10 @@ jobs:
       - name: Package codelab into zip
         run: |
           zip -r codelab.zip index.md codelab.json img
+      - name: Upload the codelab
+        run: |
+          python3 publish.py --token=${{ secrets.token }} --codelab_id=${{ secrets.codelab_id }} --filename=./codelab.zip
+
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
