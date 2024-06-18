@@ -21,7 +21,7 @@ analytics account: UA-52746336-1
 
 <img src="img/daafc89b7e291706.png" alt="daafc89b7e291706.png"  width="378.38" />
 
-**Last Updated:** 2019-04-30
+**Last Updated:** 2020-04-30
 
 ### **What makes a web app, a Progressive Web App?**
 
