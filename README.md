@@ -8,4 +8,6 @@ To see what this looks like in Markdown, open up the [`index.md` file in *raw* m
 
 # Additional Features
 
-PlusPlus supports a write API to update codelabs. You can use this feature to build a CD pipeline for your codelab - check out the script in [.github/workflows/publish-codelab.yml](https://github.com/plusplusco/example-codelab/blob/main/.github/workflows/publish-codelab.yml) for an example of publishing via GitHub Actions.
+PlusPlus supports a write API to update codelabs. You can use this feature to build a CD pipeline for your codelab - check out the script in [.github/workflows/publish-codelab.yml](https://github.com/plusplusco/example-codelab/blob/main/.github/workflows/publish-codelab.yml) for an example of publishing via GitHub Actions and see [publish.py](https://github.com/plusplusco/example-codelab/blob/main/publish.py) for an example of the actual API usage.
+
+Please feel free to steal and modify for your needs...
